@@ -93,6 +93,9 @@ nav {
     align-items: center;
 }
 
+h1 {
+    font-size: 55px;
+}
 
 i:hover {
     color: #339999;
