@@ -79,6 +79,21 @@ nav {
     transition: all .5s ease;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 i:hover {
     color: #339999;
     font-weight: 500;
@@ -91,9 +106,7 @@ i:hover {
 }
 
 @media screen and (max-width:768px) {
-    body {
-        overflow-x: hidden;
-    }
+
 
     .menu {
         position: absolute;
@@ -150,23 +163,28 @@ i:hover {
     background-repeat: no-repeat;
 }
 
-.content h2 {
+.content h1 {
     color: #fff;
-    font-size: 60px;
 }
 
 .content p {
-    width: 50%;
+    text-align: center;
+
     color: rgba(255, 255, 255, 0.6);
     line-height: 2;
 }
 
 
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 .socials i {
     color: #fff;
     font-size: 18px;
-    margin-right: 25px;
 }
 
 .socials {
@@ -174,23 +192,20 @@ i:hover {
 }
 
 .wrapper {
-    width: 1060px;
     margin: auto;
-    padding-top: 12%;
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .wrapper {
         width: 75%;
-        padding-top: 26%;
     }
 
     .content {
         text-align: center;
     }
 
-    .content h2 {
+    .content h1 {
         font-size: 60px;
     }
 
@@ -201,21 +216,11 @@ i:hover {
 
 @media screen and (max-width: 767px) {
 
-    .content {
-        text-align: center;
-    }
 
-    .banner {
-        background-position: 60%;
-    }
 
-    .wrapper {
-        width: 75%;
-        padding-top: 26%;
-    }
 
-    .content h2 {
-        font-size: 30px;
+    .content h1 {
+        font-size: 35px;
     }
 
     .content p {
