@@ -7,7 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #000;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*nav*/
@@ -137,14 +137,17 @@ i:hover {
 
 
 .banner {
-    background-image: url(../img/Alaskari\ Code.png);
     height: 90vh;
-    background-color: rgba(0, 0, 0, 0.5);
 
+}
+
+.bg-img {
+    background-image: url(../img/Alaskari\ Code.png);
+    width: 100vw;
+    height: 100vh;
     background-size: contain;
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
-    backdrop-filter: blur;
 }
 
 .content h2 {
@@ -197,6 +200,11 @@ i:hover {
 }
 
 @media screen and (max-width: 767px) {
+
+    .content {
+        text-align: center;
+    }
+
     .banner {
         background-position: 60%;
     }
