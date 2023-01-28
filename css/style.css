@@ -7,7 +7,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #000;
-overflow-x: hidden;
 }
 
 /*nav*/
@@ -97,7 +96,7 @@ i:hover {
 
     .menu {
         position: absolute;
-        right: -100%;
+        right: -100vw;
         height: 80vh;
         top: 10vh;
         background-color: #000;
