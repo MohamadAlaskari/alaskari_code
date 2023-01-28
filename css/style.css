@@ -7,6 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #000;
+    overflow: hidden;
 }
 
 /*nav*/
@@ -110,6 +111,7 @@ i:hover {
         width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in-out;
+        display: none;
     }
 
     .bar {
