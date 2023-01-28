@@ -83,7 +83,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: inherit;
+    height: 90vh;
 }
 
 .content {
