@@ -28,7 +28,7 @@ nav {
 }
 
 .logo {
-    color: #fff;
+    color: #ffd700;
     text-transform: capitalize;
     font-size: 24px;
     cursor: pointer;
@@ -156,14 +156,11 @@ nav {
 }
 
 .content h1 {
-    color: #fff;
+    color: #339999;
     font-size: 50px;
 }
 
-h1 span {
-    color: #339999;
 
-}
 
 .content p {
     text-align: center;
